@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This network was created in GeNIe Academic, which can be used for academic teaching and research purposes only -->
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Node1">
+			<state id="Brak" />
+			<state id="Niska" />
+			<state id="Wysoka" />
+			<probabilities>0.5 0.4 0.1</probabilities>
+		</cpt>
+		<cpt id="Node2">
+			<state id="Brak" />
+			<state id="Występuje" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Node3">
+			<state id="Brak" />
+			<state id="Występuje" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Node4">
+			<state id="Brak" />
+			<state id="Wystepuje" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Node5">
+			<state id="Brak" />
+			<state id="Słaby" />
+			<state id="Mocny" />
+			<probabilities>0.5 0.3 0.2</probabilities>
+		</cpt>
+		<cpt id="Node6">
+			<state id="Brak" />
+			<state id="Słaby" />
+			<state id="Mocny" />
+			<probabilities>0.5 0.3 0.2</probabilities>
+		</cpt>
+		<cpt id="Node7">
+			<state id="Brak" />
+			<state id="Występuje" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Node9">
+			<state id="Brak" />
+			<state id="Występuje" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Node10">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>Node2 Node4 Node3 Node1 Node5</parents>
+			<probabilities>0.1 0.9 0.2 0.8 0.2 0.8 0.5 0.5 0.6 0.4 0.7 0.3 0.6 0.4 0.7 0.3 0.7 0.3 0.2 0.8 0.6 0.4 0.7 0.3 0.6 0.4 0.7 0.3 0.7 0.3 0.6 0.4 0.7 0.3 0.7 0.3 0.5 0.5 0.6 0.4 0.6 0.4 0.6 0.4 0.7 0.3 0.7 0.3 0.6 0.4 0.7 0.3 0.7 0.3 0.6 0.4 0.7 0.3 0.7 0.3 0.7 0.3 0.8 0.2 0.8 0.2 0.7 0.3 0.8 0.2 0.8 0.2 0.3 0.7 0.5 0.5 0.5 0.5 0.5 0.5 0.6 0.4 0.6 0.4 0.5 0.5 0.6 0.4 0.6 0.4 0.5 0.5 0.6 0.4 0.6 0.4 0.6 0.4 0.7 0.3 0.7 0.3 0.6 0.4 0.7 0.3 0.7 0.3 0.5 0.5 0.6 0.4 0.6 0.4 0.6 0.4 0.7 0.3 0.7 0.3 0.6 0.4 0.7 0.3 0.7 0.3 0.7 0.3 0.8 0.2 0.8 0.2 0.8 0.2 0.9 0.1 0.9 0.1 0.8 0.2 0.9 0.1 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Trudności_z_oddychaniem">
+			<state id="Brak" />
+			<state id="Lekkie" />
+			<state id="Mocne" />
+			<probabilities>0.5 0.4 0.1</probabilities>
+		</cpt>
+		<cpt id="Node11">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>Node5 Node7</parents>
+			<probabilities>0.1 0.9 0.2 0.8 0.1 0.9 0.2 0.8 0.7 0.3 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Node12">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>Node6 Node9 Node7 Node1</parents>
+			<probabilities>0.1 0.9 0.1 0.9 0.2 0.8 0.3 0.7 0.35 0.65 0.3 0.7 0.7 0.3 0.75 0.25 0.7 0.3 0.75 0.25 0.8 0.2 0.75 0.25 0.2 0.8 0.25 0.75 0.25 0.75 0.3 0.7 0.35 0.65 0.3 0.7 0.5 0.5 0.55 0.45 0.5 0.5 0.7 0.3 0.75 0.25 0.7 0.3 0.7 0.3 0.75 0.25 0.7 0.3 0.75 0.25 0.8 0.2 0.75 0.25 0.75 0.25 0.8 0.2 0.75 0.25 0.85 0.15 0.9 0.1 0.85 0.15</probabilities>
+		</cpt>
+		<cpt id="Node111">
+			<state id="Brak" />
+			<state id="Wystepuje" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Zapalenie_płuc">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>Node2 Node1 Trudności_z_oddychaniem Node111 Node5</parents>
+			<probabilities>0.05 0.95 0.05 0.95 0.1 0.9 0.3 0.7 0.4 0.6 0.35 0.65 0.2 0.8 0.2 0.8 0.25 0.75 0.35 0.65 0.35 0.65 0.4 0.6 0.4 0.6 0.4 0.6 0.4 0.6 0.6 0.4 0.6 0.4 0.65 0.35 0.1 0.9 0.1 0.9 0.15 0.85 0.2 0.8 0.2 0.8 0.15 0.85 0.3 0.7 0.3 0.7 0.35 0.65 0.4 0.6 0.4 0.6 0.45 0.55 0.5 0.5 0.5 0.5 0.55 0.45 0.55 0.45 0.5 0.5 0.6 0.4 0.2 0.8 0.2 0.8 0.25 0.75 0.5 0.5 0.5 0.5 0.55 0.45 0.55 0.45 0.55 0.45 0.6 0.4 0.6 0.4 0.6 0.4 0.65 0.35 0.6 0.4 0.6 0.4 0.65 0.35 0.7 0.3 0.7 0.3 0.75 0.25 0.1 0.9 0.1 0.9 0.15 0.85 0.5 0.5 0.5 0.5 0.55 0.45 0.3 0.7 0.3 0.7 0.35 0.65 0.55 0.45 0.55 0.45 0.6 0.4 0.7 0.3 0.7 0.3 0.75 0.25 0.75 0.25 0.75 0.25 0.8 0.2 0.1 0.9 0.1 0.9 0.15 0.85 0.35 0.65 0.35 0.65 0.4 0.6 0.45 0.55 0.45 0.55 0.55 0.45 0.5 0.5 0.5 0.5 0.55 0.45 0.5 0.5 0.5 0.5 0.55 0.45 0.7 0.3 0.7 0.3 0.75 0.25 0.5 0.5 0.5 0.5 0.55 0.45 0.7 0.3 0.7 0.3 0.75 0.25 0.7 0.3 0.7 0.3 0.75 0.25 0.75 0.25 0.75 0.25 0.8 0.2 0.8 0.2 0.8 0.2 0.85 0.15 0.85 0.15 0.85 0.15 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Astma">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>Node111 Trudności_z_oddychaniem Node2</parents>
+			<probabilities>0.1 0.9 0.3 0.7 0.2 0.8 0.3 0.7 0.6 0.4 0.7 0.3 0.2 0.8 0.3 0.7 0.4 0.6 0.5 0.5 0.75 0.25 0.9 0.1</probabilities>
+		</cpt>
+		<cpt id="Node28">
+			<state id="Tak" />
+			<state id="Nie" />
+			<parents>Node111 Trudności_z_oddychaniem Node7 Node6 Node2</parents>
+			<probabilities>0.1 0.9 0.1 0.9 0.1 0.9 0.1 0.9 0.2 0.8 0.2 0.8 0.1 0.9 0.15 0.85 0.1 0.9 0.15 0.85 0.15 0.85 0.15 0.85 0.2 0.8 0.25 0.75 0.2 0.8 0.25 0.75 0.25 0.75 0.3 0.7 0.25 0.75 0.3 0.7 0.3 0.7 0.35 0.65 0.35 0.65 0.4 0.6 0.3 0.7 0.35 0.65 0.3 0.7 0.3 0.7 0.35 0.65 0.4 0.6 0.3 0.7 0.35 0.65 0.3 0.7 0.35 0.65 0.35 0.65 0.4 0.6 0.6 0.4 0.65 0.35 0.6 0.4 0.65 0.35 0.6 0.4 0.65 0.35 0.65 0.35 0.65 0.35 0.65 0.35 0.7 0.3 0.65 0.35 0.75 0.25 0.75 0.25 0.8 0.2 0.75 0.25 0.8 0.2 0.7 0.3 0.75 0.25 0.75 0.25 0.8 0.2 0.75 0.25 0.8 0.2 0.75 0.25 0.8 0.2 0.75 0.25 0.8 0.2 0.75 0.25 0.8 0.2 0.75 0.25 0.8 0.2 0.8 0.2 0.85 0.15 0.8 0.2 0.85 0.15 0.85 0.15 0.9 0.1</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.0.2423.0 ACADEMIC" name="Network1">
+			<node id="Node1">
+				<name>Gorączka</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>103 122 205 189</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Node2">
+				<name>Kaszel</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>12 237 136 297</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Node3">
+				<name>Katar</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>228 37 335 105</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Node4">
+				<name>Ból gardła</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>469 44 586 111</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Node5">
+				<name>Ból głowy</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>369 140 417 170</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Node6">
+				<name>Ból brzucha</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>569 166 617 196</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Node7">
+				<name>Nudności i wymioty</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>754 185 802 215</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Node9">
+				<name>Biegunka</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1062 122 1110 152</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Node10">
+				<name>Przeziębienie</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>175 556 227 588</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Node11">
+				<name>Migrena</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>391 583 443 615</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Node12">
+				<name>Zatrucie pokarmowe</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>699 623 751 655</position>
+				<barchart active="true" width="188" height="64" />
+			</node>
+			<node id="Trudności_z_oddychaniem">
+				<name>Trudności z oddychaniem</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1246 119 1334 174</position>
+				<barchart active="true" width="157" height="72" />
+			</node>
+			<node id="Zapalenie_płuc">
+				<name>Zapalenie płuc</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>979 603 1061 654</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Astma">
+				<name>Astma</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1395 491 1443 521</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Node111">
+				<name>Ból w klatce piersiowej</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>842 100 885 126</position>
+				<barchart active="true" width="203" height="64" />
+			</node>
+			<node id="Node28">
+				<name>Zawał</name>
+				<interior color="e5f6f7" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>1272 577 1324 609</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>
